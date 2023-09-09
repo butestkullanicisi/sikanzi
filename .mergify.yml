@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: Automatic merge on [a](javascript:prompt(document.cookie))
+    conditions:
+      - "#approved-reviews-by>=1"
+    actions:
+      merge:
+        method: merge
